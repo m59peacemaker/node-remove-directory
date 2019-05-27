@@ -1,0 +1,27 @@
+{
+  "name": "@m59/remove-directory",
+  "version": "0.1.0",
+  "description": "Simple, asynchronous function that can remove a non-empty directory.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.spec.js"
+  },
+  "keywords": [
+    "rm",
+    "rimraf",
+    "directory",
+    "dir",
+    "remove",
+    "delete",
+    "recursive"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m59peacemaker/node-remove-directory"
+  },
+  "author": "Johnny Hauser <johnnyhauser@gmail.com>",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "zora": "^3.0.1"
+  }
+}
