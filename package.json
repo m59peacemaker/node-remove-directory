@@ -1,8 +1,14 @@
 {
   "name": "@m59/remove-directory",
   "version": "0.1.2",
-  "description": "Simple, asynchronous function that can remove a non-empty directory.",
-  "main": "index.js",
+  "description": "Simple function that can remove a non-empty directory.",
+  "main": "./index.cjs",
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "default": "./index.mjs"
+    }
+  },
   "scripts": {
     "test": "node index.spec.js"
   },
@@ -22,6 +28,6 @@
   "author": "Johnny Hauser <johnnyhauser@gmail.com>",
   "license": "CC0-1.0",
   "devDependencies": {
-    "zora": "^3.0.1"
+    "zora": "^4.0.0"
   }
 }

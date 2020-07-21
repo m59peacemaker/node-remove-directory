@@ -1,7 +1,7 @@
 const { test } = require('zora')
 const fs = require('fs')
 const path = require('path')
-const removeDirectory = require('./')
+const { removeDirectory } = require('./')
 
 test('removes a typical non-empty directory', async t => {
 	const dir = `/tmp/foo/bar/baz`
