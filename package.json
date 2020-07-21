@@ -1,6 +1,6 @@
 {
   "name": "@m59/remove-directory",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Simple function that can remove a non-empty directory.",
   "main": "./index.cjs",
   "exports": {
